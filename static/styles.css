@@ -1,0 +1,15 @@
+#container{
+    margin-left: 20px;
+
+}
+
+
+
+#chat {
+    background-color: lightblue;
+    width: 1000px;
+}
+
+#username {
+    width:500px;
+}
