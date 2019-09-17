@@ -2,8 +2,10 @@
 <html lang="en">
 
 <head>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"> </script>
     <title> MySpace Chat App </title>
-    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -21,21 +23,24 @@
         </div>
         <br>
         <br>
-        <div> Mr Jones: Okay guys today we're going to learn about Java</div>
-        <div> Ben: What are we going to learn about today? </div>
-        <div> Mr Jones: How to use print to display stuff to your screen! For the 2384293847293th time! </div>
-        <div> Ben: Are you going to teach us? </div>
-        <div> Mr Jones: Nah, you guys can watch a 1hr video on how to print stuff, enjoy! </div>
-        <br>
-        <br>
+
+        <div id="messages">
+
+        </div>
+
+
+
         <div class="row">
             <div class="col-md-12">
-                <input id="username" type="text" placeholder="Enter your username" autofocus>
-                <input id="chat" type="text" placeholder="Enter your text">
-                <input type="submit">
+                <input id="username" name="username" type="text" placeholder="Enter your username">
+                <input id="message" name="message" type="text" placeholder="Enter your text">
+                <input id="submit" type="submit">
             </div>
         </div>
-    </div>  
+    </div>
+    <br>
+    
+    <script src=chat.js> </script>
 </body>
 
 </html>

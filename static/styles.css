@@ -3,13 +3,18 @@
 
 }
 
-
-
-#chat {
-    background-color: lightblue;
+body{
+    background-color: #d6eef8;
+}
+#message {
     width: 1000px;
 }
 
 #username {
     width:500px;
+}
+
+#messages{
+    margin-left: 20px;
+    margin-bottom: 50px;
 }
