@@ -5,25 +5,34 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"> </script>
     <title> MySpace Chat App </title>
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand|Roboto+Condensed&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
 </head>
 
 <body>
     <div id="container">
         <div class="row">
             <div class="col-md-12">
-                <a href="https://news.codecademy.com/myspace-coding-legacy/" target="_blank"><img id="logo" src="http://www.userlogos.org/files/logos/jumpordie/myspace_02.png" alt="MySpace logo"></a>
-
-                <p id="text"></p> Hello. This is my chat app. You can chat with a friend here, or even by yourself. </p>
+                <a href="https://news.codecademy.com/myspace-coding-legacy/" target="_blank"> <img id="logo"
+                        src="http://www.userlogos.org/files/logos/jumpordie/myspace_02.png" alt="MySpace logo"></a>
             </div>
 
         </div>
-        <br>
-        <br>
 
+        <div class="row">
+            <div class="col-md-12">
+                <div id="intro">
+                    <p>Hello. This is my chat app. You can chat with a friend here, or even by yourself. </p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
         <div id="messages">
 
         </div>
@@ -34,13 +43,13 @@
             <div class="col-md-12">
                 <input id="username" name="username" type="text" placeholder="Enter your username">
                 <input id="message" name="message" type="text" placeholder="Enter your text">
-                <input id="submit" type="submit">
+                <input id="submit" type="submit" value="Send :)">
             </div>
         </div>
+
+        <br>
+        <script src=chat.js> </script>
     </div>
-    <br>
-    
-    <script src=chat.js> </script>
 </body>
 
 </html>
